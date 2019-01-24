@@ -6,36 +6,33 @@ import java.util.Scanner;
 public class RandomFive {
 
     public static void main(String[] args) {
-
+        UserInput();
     }
 
     public static void UserInput() {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter the first number");
-        int firstNum = input.nextInt();
-
         System.out.println("Enter the last number");
         int lastNum = input.nextInt();
 
-        int rndNum = RandomNum(firstNum, lastNum);
-        if ((rndNum > firstNum) && (rndNum < lastNum)) {
-            System.out.println("The five random numbers are" + rndNum);
-        } else {
-            System.exit(0);
+        System.out.print("The five random numbers are\n");
+        for (int i = 0; i < 5; i++) {
+
+            int rndNumList = RandomNum(lastNum);
+            System.out.print(rndNumList+",");
+
         }
 
+    }
+    public static int RandomNum(int lastNum) {
 
-        public static int RandomNum ( int firstNum, int lastNum){
 
-            ArrayList<Integer> rndNum = new ArrayList<Integer>();
-            for (int i = 0; i < 5; i++) {
+           int rndNumList = (int) (Math.random() * lastNum + 1);
 
-            }
-
-            return rndNum;
+            return rndNumList;
 
         }
     }
-}
+
+
