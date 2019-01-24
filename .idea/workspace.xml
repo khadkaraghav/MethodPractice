@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1198f67-f3a2-473b-981b-8918cd628e64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/MathProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,18 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Sort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/lengthOfString.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,14 +109,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Grade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1144">
-              <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+            <state relative-caret-position="22">
+              <caret line="1" lean-forward="true" selection-end-line="65" />
               <folding>
                 <element signature="e#1163#1164#0" expanded="true" />
                 <element signature="e#1190#1191#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/MathProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+              <folding>
+                <element signature="e#120#121#0" expanded="true" />
+                <element signature="e#143#144#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/com/company/RandomWords.java" />
         <option value="$PROJECT_DIR$/src/com/company/OddorEven.java" />
         <option value="$PROJECT_DIR$/src/com/company/Grade.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MathProblem.java" />
       </list>
     </option>
   </component>
@@ -221,9 +223,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Grade">
-    <configuration name="Area" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Area" />
+  <component name="RunManager" selected="Application.MathProblem">
+    <configuration name="Grade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Grade" />
       <module name="Method Practice" />
       <extension name="coverage">
         <pattern>
@@ -235,8 +237,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Grade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Grade" />
+    <configuration name="MathProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.MathProblem" />
       <module name="Method Practice" />
       <extension name="coverage">
         <pattern>
@@ -288,19 +290,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Area" />
       <item itemvalue="Application.RandomFive" />
       <item itemvalue="Application.RandomWords" />
       <item itemvalue="Application.OddorEven" />
       <item itemvalue="Application.Grade" />
+      <item itemvalue="Application.MathProblem" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MathProblem" />
         <item itemvalue="Application.Grade" />
         <item itemvalue="Application.OddorEven" />
         <item itemvalue="Application.RandomWords" />
         <item itemvalue="Application.RandomFive" />
-        <item itemvalue="Application.Area" />
       </list>
     </recent_temporary>
   </component>
@@ -315,12 +317,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548271071021</updated>
       <workItem from="1548271072654" duration="11203000" />
-      <workItem from="1548339890675" duration="6397000" />
+      <workItem from="1548339890675" duration="10507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17600000" />
+    <option name="totallyTimeSpent" value="21710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -464,11 +466,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Grade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-end-line="65" />
           <folding>
             <element signature="e#1163#1164#0" expanded="true" />
             <element signature="e#1190#1191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MathProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
           </folding>
         </state>
       </provider>
