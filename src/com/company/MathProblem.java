@@ -17,12 +17,11 @@ public class MathProblem {
          String selection = input.next();
 
         if(selection.equalsIgnoreCase("circle")) {
-
             System.out.println("Enter radius");
             double radius = input.nextDouble();
             circle(radius);}
 
-        if(selection.equalsIgnoreCase("triangle")) {
+        else if(selection.equalsIgnoreCase("triangle")) {
             System.out.println("Enter base");
         double base = input.nextDouble();
 
@@ -30,7 +29,7 @@ public class MathProblem {
         double height = input.nextDouble();
             triangle(base,height);}
 
-        if(selection.equalsIgnoreCase("rectangle")){
+        else if(selection.equalsIgnoreCase("rectangle")){
         System.out.println("Enter length");
         double length = input.nextDouble();
 
@@ -38,7 +37,7 @@ public class MathProblem {
         double width = input.nextDouble();
             rectangle(length,width);}
 
-        if(selection.equalsIgnoreCase("triangle")){
+        else if (selection.equalsIgnoreCase("triangle")){
         System.out.println("Enter length of square");
         double lengthOfSquare = input.nextDouble();
             square(lengthOfSquare);}
